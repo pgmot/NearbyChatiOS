@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81EA13A01C36889D0087A295 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EA139F1C36889D0087A295 /* AppDelegate.swift */; };
+		81EA13A21C36889D0087A295 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EA13A11C36889D0087A295 /* ViewController.swift */; };
+		81EA13A51C36889D0087A295 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81EA13A31C36889D0087A295 /* Main.storyboard */; };
+		81EA13A71C36889D0087A295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81EA13A61C36889D0087A295 /* Assets.xcassets */; };
+		81EA13AA1C36889D0087A295 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81EA13A81C36889D0087A295 /* LaunchScreen.storyboard */; };
+		81EA13B51C36889D0087A295 /* NearbyChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EA13B41C36889D0087A295 /* NearbyChatTests.swift */; };
+		81EA13C01C36889D0087A295 /* NearbyChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EA13BF1C36889D0087A295 /* NearbyChatUITests.swift */; };
+		A3DAE7D4512D06CF10162F11 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3C8ED1A52335D4BD79AE20 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81EA13B11C36889D0087A295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81EA13941C36889D0087A295 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81EA139B1C36889D0087A295;
+			remoteInfo = NearbyChat;
+		};
+		81EA13BC1C36889D0087A295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81EA13941C36889D0087A295 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81EA139B1C36889D0087A295;
+			remoteInfo = NearbyChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B3C8ED1A52335D4BD79AE20 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8129CD561C36DB5E00076ACE /* NearbyChat-Briding-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NearbyChat-Briding-Header.h"; sourceTree = "<group>"; };
+		81EA139C1C36889D0087A295 /* NearbyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearbyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81EA139F1C36889D0087A295 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81EA13A11C36889D0087A295 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81EA13A41C36889D0087A295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81EA13A61C36889D0087A295 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81EA13A91C36889D0087A295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81EA13AB1C36889D0087A295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81EA13B01C36889D0087A295 /* NearbyChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearbyChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81EA13B41C36889D0087A295 /* NearbyChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyChatTests.swift; sourceTree = "<group>"; };
+		81EA13B61C36889D0087A295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81EA13BB1C36889D0087A295 /* NearbyChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearbyChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81EA13BF1C36889D0087A295 /* NearbyChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyChatUITests.swift; sourceTree = "<group>"; };
+		81EA13C11C36889D0087A295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97037896A86F71F1F00C0F8E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BA42D0E8F8E93A51C313A15D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81EA13991C36889D0087A295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3DAE7D4512D06CF10162F11 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81EA13AD1C36889D0087A295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81EA13B81C36889D0087A295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CA129D9DE056EA49D617DB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA42D0E8F8E93A51C313A15D /* Pods.debug.xcconfig */,
+				97037896A86F71F1F00C0F8E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		81EA13931C36889D0087A295 = {
+			isa = PBXGroup;
+			children = (
+				81EA139E1C36889D0087A295 /* NearbyChat */,
+				81EA13B31C36889D0087A295 /* NearbyChatTests */,
+				81EA13BE1C36889D0087A295 /* NearbyChatUITests */,
+				81EA139D1C36889D0087A295 /* Products */,
+				2CA129D9DE056EA49D617DB5 /* Pods */,
+				BD2BFD396A090486C0C73904 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81EA139D1C36889D0087A295 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81EA139C1C36889D0087A295 /* NearbyChat.app */,
+				81EA13B01C36889D0087A295 /* NearbyChatTests.xctest */,
+				81EA13BB1C36889D0087A295 /* NearbyChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81EA139E1C36889D0087A295 /* NearbyChat */ = {
+			isa = PBXGroup;
+			children = (
+				81EA139F1C36889D0087A295 /* AppDelegate.swift */,
+				81EA13A11C36889D0087A295 /* ViewController.swift */,
+				81EA13A31C36889D0087A295 /* Main.storyboard */,
+				81EA13A61C36889D0087A295 /* Assets.xcassets */,
+				81EA13A81C36889D0087A295 /* LaunchScreen.storyboard */,
+				81EA13AB1C36889D0087A295 /* Info.plist */,
+				8129CD561C36DB5E00076ACE /* NearbyChat-Briding-Header.h */,
+			);
+			path = NearbyChat;
+			sourceTree = "<group>";
+		};
+		81EA13B31C36889D0087A295 /* NearbyChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				81EA13B41C36889D0087A295 /* NearbyChatTests.swift */,
+				81EA13B61C36889D0087A295 /* Info.plist */,
+			);
+			path = NearbyChatTests;
+			sourceTree = "<group>";
+		};
+		81EA13BE1C36889D0087A295 /* NearbyChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81EA13BF1C36889D0087A295 /* NearbyChatUITests.swift */,
+				81EA13C11C36889D0087A295 /* Info.plist */,
+			);
+			path = NearbyChatUITests;
+			sourceTree = "<group>";
+		};
+		BD2BFD396A090486C0C73904 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B3C8ED1A52335D4BD79AE20 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81EA139B1C36889D0087A295 /* NearbyChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81EA13C41C36889D0087A295 /* Build configuration list for PBXNativeTarget "NearbyChat" */;
+			buildPhases = (
+				C5D2ED7B605293673084EDDC /* Check Pods Manifest.lock */,
+				81EA13981C36889D0087A295 /* Sources */,
+				81EA13991C36889D0087A295 /* Frameworks */,
+				81EA139A1C36889D0087A295 /* Resources */,
+				A5462AB37F217724D388CD13 /* Embed Pods Frameworks */,
+				BD42B2A305DCACC03122A4E2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NearbyChat;
+			productName = NearbyChat;
+			productReference = 81EA139C1C36889D0087A295 /* NearbyChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81EA13AF1C36889D0087A295 /* NearbyChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81EA13C71C36889D0087A295 /* Build configuration list for PBXNativeTarget "NearbyChatTests" */;
+			buildPhases = (
+				81EA13AC1C36889D0087A295 /* Sources */,
+				81EA13AD1C36889D0087A295 /* Frameworks */,
+				81EA13AE1C36889D0087A295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81EA13B21C36889D0087A295 /* PBXTargetDependency */,
+			);
+			name = NearbyChatTests;
+			productName = NearbyChatTests;
+			productReference = 81EA13B01C36889D0087A295 /* NearbyChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81EA13BA1C36889D0087A295 /* NearbyChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81EA13CA1C36889D0087A295 /* Build configuration list for PBXNativeTarget "NearbyChatUITests" */;
+			buildPhases = (
+				81EA13B71C36889D0087A295 /* Sources */,
+				81EA13B81C36889D0087A295 /* Frameworks */,
+				81EA13B91C36889D0087A295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81EA13BD1C36889D0087A295 /* PBXTargetDependency */,
+			);
+			name = NearbyChatUITests;
+			productName = NearbyChatUITests;
+			productReference = 81EA13BB1C36889D0087A295 /* NearbyChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81EA13941C36889D0087A295 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = mot;
+				TargetAttributes = {
+					81EA139B1C36889D0087A295 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BMN93S5WD9;
+					};
+					81EA13AF1C36889D0087A295 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BMN93S5WD9;
+						TestTargetID = 81EA139B1C36889D0087A295;
+					};
+					81EA13BA1C36889D0087A295 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BMN93S5WD9;
+						TestTargetID = 81EA139B1C36889D0087A295;
+					};
+				};
+			};
+			buildConfigurationList = 81EA13971C36889D0087A295 /* Build configuration list for PBXProject "NearbyChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81EA13931C36889D0087A295;
+			productRefGroup = 81EA139D1C36889D0087A295 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81EA139B1C36889D0087A295 /* NearbyChat */,
+				81EA13AF1C36889D0087A295 /* NearbyChatTests */,
+				81EA13BA1C36889D0087A295 /* NearbyChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81EA139A1C36889D0087A295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81EA13AA1C36889D0087A295 /* LaunchScreen.storyboard in Resources */,
+				81EA13A71C36889D0087A295 /* Assets.xcassets in Resources */,
+				81EA13A51C36889D0087A295 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81EA13AE1C36889D0087A295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81EA13B91C36889D0087A295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A5462AB37F217724D388CD13 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD42B2A305DCACC03122A4E2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5D2ED7B605293673084EDDC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81EA13981C36889D0087A295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81EA13A21C36889D0087A295 /* ViewController.swift in Sources */,
+				81EA13A01C36889D0087A295 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81EA13AC1C36889D0087A295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81EA13B51C36889D0087A295 /* NearbyChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81EA13B71C36889D0087A295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81EA13C01C36889D0087A295 /* NearbyChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81EA13B21C36889D0087A295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81EA139B1C36889D0087A295 /* NearbyChat */;
+			targetProxy = 81EA13B11C36889D0087A295 /* PBXContainerItemProxy */;
+		};
+		81EA13BD1C36889D0087A295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81EA139B1C36889D0087A295 /* NearbyChat */;
+			targetProxy = 81EA13BC1C36889D0087A295 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81EA13A31C36889D0087A295 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81EA13A41C36889D0087A295 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81EA13A81C36889D0087A295 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81EA13A91C36889D0087A295 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81EA13C21C36889D0087A295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81EA13C31C36889D0087A295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81EA13C51C36889D0087A295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA42D0E8F8E93A51C313A15D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = NearbyChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pgmot.NearbyChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NearbyChat/NearbyChat-Briding-Header.h";
+			};
+			name = Debug;
+		};
+		81EA13C61C36889D0087A295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97037896A86F71F1F00C0F8E /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = NearbyChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pgmot.NearbyChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NearbyChat/NearbyChat-Briding-Header.h";
+			};
+			name = Release;
+		};
+		81EA13C81C36889D0087A295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NearbyChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pgmot.NearbyChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearbyChat.app/NearbyChat";
+			};
+			name = Debug;
+		};
+		81EA13C91C36889D0087A295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NearbyChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pgmot.NearbyChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearbyChat.app/NearbyChat";
+			};
+			name = Release;
+		};
+		81EA13CB1C36889D0087A295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NearbyChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pgmot.NearbyChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NearbyChat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		81EA13CC1C36889D0087A295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NearbyChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pgmot.NearbyChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NearbyChat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81EA13971C36889D0087A295 /* Build configuration list for PBXProject "NearbyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81EA13C21C36889D0087A295 /* Debug */,
+				81EA13C31C36889D0087A295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81EA13C41C36889D0087A295 /* Build configuration list for PBXNativeTarget "NearbyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81EA13C51C36889D0087A295 /* Debug */,
+				81EA13C61C36889D0087A295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81EA13C71C36889D0087A295 /* Build configuration list for PBXNativeTarget "NearbyChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81EA13C81C36889D0087A295 /* Debug */,
+				81EA13C91C36889D0087A295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81EA13CA1C36889D0087A295 /* Build configuration list for PBXNativeTarget "NearbyChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81EA13CB1C36889D0087A295 /* Debug */,
+				81EA13CC1C36889D0087A295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81EA13941C36889D0087A295 /* Project object */;
+}
